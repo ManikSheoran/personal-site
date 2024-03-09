@@ -5,17 +5,24 @@ body {
 }
 
 .top-container {
-  background-color: #dafffb;
+  background-color: #7fede4;
   margin: 0 0 0 0;
   padding: 50px 100px;
   padding-bottom: 0px;
   position: relative;
 }
-.middle-container {
-}
+
+
 .bottom-container {
   background-color: #04364a;
   padding: 20px;
+}
+
+.skill-logo {
+  width: auto;
+  height: 96px;
+  margin: 25px;
+  fill: #06425a;
 }
 
 .skill-row {
@@ -25,18 +32,72 @@ body {
   line-height: 2;
 }
 
+.proj-img {
+  height: 320px;
+  width: 350px;
+  margin: 20px 0;
+  border-radius: 2%;
+}
+
+@media (max-width: 960px) {
+  .proj-img {
+    height: auto;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 2%;
+  }
+}
+
+.project-section {
+  background-color: #7fede4;
+  margin: 0 0 0 0;
+  padding: 50px 100px 50px;
+  position: relative;
+}
+
+.icon {
+  background: #176b87;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 0px;
+  height: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px 0 0px 0;
+}
+
+.icon:hover {
+  background: #04364a;
+  border: solid #04364a 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 0px;
+  text-decoration: none;
+}
+
 h1 {
   font-size: 400%;
-  color: #64ccc5;
+  color: #02665f;
   margin: 0 auto 0 auto;
   font-family: Sacramento, cursive;
 }
+
 h2 {
   font-size: 150%;
   font-weight: normal;
-  color: #64ccc5;
+  color: #02665f;
   font-family: Montserrat, sans-serif;
 }
+
 h3 {
   color: #2190a4;
   font-family: Montserrat, sans-serif;
@@ -45,13 +106,13 @@ h3 {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #71bfc0;
+  border-color: #7fede4;
   border-width: 7px;
   margin: 50px auto;
   width: 4%;
 }
 
-.intro{
+.intro {
   margin: 10px;
 }
 
@@ -61,35 +122,41 @@ hr {
   position: relative;
   top: 3px;
 }
+
 .bottom-c {
   width: 9.375%;
   height: auto;
   position: absolute;
   left: 21.87%;
 }
+
 .top-c {
   width: 9.375%;
   height: auto;
   position: absolute;
   left: 65.62%;
 }
+
 .dp {
   height: auto;
   width: 100px;
   margin: 32px auto auto;
 }
+
 .python {
   width: 96px;
   margin: 30px 30px 30px 0;
   float: left;
 }
+
 .html {
   width: 96px;
   margin: 30px 0px 30px 30px;
   float: right;
 }
+
 .footer-link {
-  color: #64ccc5;
+  color: #02665f;
   margin: 40px;
   text-decoration: none;
 }
@@ -100,7 +167,7 @@ hr {
 }
 
 .copyright {
-  color: #64ccc5;
+  color: #02665f;
   font-size: 14px;
   padding: 15px 0 10px;
 }
@@ -135,14 +202,14 @@ hr {
 }
 
 .nav-bar {
-  color: #64ccc5;
+  color: #02665f;
   font-size: 20px;
-  background-color: #dafffb;
+  background-color: #7fede4;
   padding: 20px 0;
 }
 
 .home {
-  color: #64ccc5;
+  color: #02665f;
   margin: 40px;
   text-decoration: none;
 }
@@ -153,8 +220,8 @@ hr {
 }
 
 .page {
-  color: #64ccc5;
-  text-decoration: solid underline #64ccc5 5px;
+  color: #02665f;
+  text-decoration: solid underline #02665f 5px;
 }
 
 .top-box {
@@ -164,6 +231,6 @@ hr {
   position: relative;
 }
 
-.project{
-    background-color:#dafffb;
+.project {
+  background-color: #dafffb;
 }
